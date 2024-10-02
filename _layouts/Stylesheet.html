@@ -1,4 +1,20 @@
----
-layout: none
----
-{{ content | scssify }}
+<style>
+  body {
+      font-family: 'Noto Sans KR', sans-serif;
+      background-color: #f5f5f5;
+      color: #333;
+  }
+  .content {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+  }
+  nav ul {
+      list-style-type: none;
+      padding: 0;
+  }
+  nav ul li {
+      display: inline;
+      margin-right: 10px;
+  }
+</style>
