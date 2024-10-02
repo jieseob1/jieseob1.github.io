@@ -60,7 +60,6 @@ encoding: utf-8
 theme: null
 plugins:
   - jekyll-feed 
-  - jekyll-seo-tag
   - jekyll-sitemap 
   - jekyll-tidy
     
